@@ -15,9 +15,9 @@ function NasaData() {
       });
   }, []);
   return (
-    <div>
+    <>
       <Header theData={data} />
-    </div>
+    </>
   );
 }
 
