@@ -1,14 +1,17 @@
 import React from "react";
 import "./App.css";
+import NasaData from "./components/NasaData";
+import styled from "styled-components";
+
+const BodyApp = styled.div`
+  background: orange;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
+    <BodyApp className="App">
+      <NasaData />
+    </BodyApp>
   );
 }
 
